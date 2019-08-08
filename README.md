@@ -1,6 +1,6 @@
 This is an Maven project implementing an ImageJ 1.x plugin to load XRM, TXRM, and TXM files.
 
-These file extension are used by Zeiss Xradia on their X-ray microscopes.  This file format 
+These file extension are used by Zeiss Xradia on their X-ray microscopes.  This file format
 uses Microsoft OLE2 to store images and metadata.  This plugin allows ImageJ to directly load
 the images.
 
@@ -14,3 +14,6 @@ To Install:
 
 To Run:
 Go to File>Import>XRM/TXRM/TXM and select the xrm, txrm, or txm file you'd like to load.
+
+EDIT from fork:
+I have added the .jar files to build directory. Drag and drop these into Fiji.app/plugins. I have tested on a couple of computers and seems to work fine. This is with Fiji 1.8
